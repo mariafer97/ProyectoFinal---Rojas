@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cotizador de internet</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Cotizador de planes</h1>
+
+  <form id="formDescuento">
+    <input type="text" id="codigo" placeholder="Código de descuento" />
+    <button type="submit">Aplicar</button>
+  </form>
+
+  <div id="app"></div>
+
+  <div id="extras" class="hidden">
+    <h2>Extras opcionales</h2>
+    <label><input type="checkbox" value="10" /> IP fija (+$10)</label><br>
+    <label><input type="checkbox" value="15" /> Router premium (+$15)</label><br>
+    <label><input type="checkbox" value="20" /> Servicio técnico 24h (+$20)</label><br>
+    <button id="calcularBtn">Calcular Total</button>
+  </div>
+
+  <div id="resultado"></div>
+
+  <script src="main.js"></script>
+</body>
+</html>
