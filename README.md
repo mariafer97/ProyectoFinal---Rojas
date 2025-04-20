@@ -24,7 +24,7 @@ Cómo usar
 
 Descargá este repositorio.
 Abrí `index.html` en tu navegador.
-¡Interactuá con el simulador y probá el código PROMO10!
+Conn el simulador y probá el código PROMO10!
 
 Estructura del proyecto
 
